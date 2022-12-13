@@ -26,28 +26,63 @@ function HomeTop(props) {
             </div>
 
             <div>
-                <Dropdown >
-                    <div className="d-flex col m-4">
-                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-3 m-1" >
-                            छान्नुहोश
+                <div className="d-flex justify-content-between col m-4 ">
+
+                    <Dropdown className="col-3 me-2 mt-2" >
+                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-12"  >
+                            छान्नुहोश0
                         </Dropdown.Toggle>
-                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-3 m-1">
-                            छान्नुहोश
-                        </Dropdown.Toggle>
-                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-3 m-1">
-                            छान्नुहोश
-                        </Dropdown.Toggle>
-                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-3 m-1">
-                            छान्नुहोश
-                        </Dropdown.Toggle>
-                    </div>
+                        <Dropdown.Menu>
+                            <Dropdown.Item href="#/action-1">Action0</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Another action0</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Something else0</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
 
 
-                </Dropdown>
+                    <Dropdown className="col-3 m-2">
+                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-12">
+                            छान्नुहोश1
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu>
+                            <Dropdown.Item href="#/action-1">Action1</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Another action1</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Something else1</Dropdown.Item>
+                        </Dropdown.Menu>
 
+                    </Dropdown>
+
+
+                    <Dropdown className="col-3 m-2">
+                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-12">
+                            छान्नुहोश2
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu>
+                            <Dropdown.Item href="#/action-1">Action2</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Another action2</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Something else2</Dropdown.Item>
+                        </Dropdown.Menu>
+
+                    </Dropdown>
+
+
+                    <Dropdown className="col-3 m-2 ">
+
+                        <Dropdown.Toggle variant="light" id="dropdown-basic" className="col-12">
+                            छान्नुहोश3
+                        </Dropdown.Toggle>
+                        <Dropdown.Menu>
+                            <Dropdown.Item href="#/action-1">Action3</Dropdown.Item>
+                            <Dropdown.Item href="#/action-2">Another action3</Dropdown.Item>
+                            <Dropdown.Item href="#/action-3">Something else3</Dropdown.Item>
+                        </Dropdown.Menu>
+                    </Dropdown>
+
+
+                </div>
             </div>
 
-        </div>
+        </div >
     );
 }
 export default HomeTop;
